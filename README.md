@@ -1,7 +1,7 @@
 # Huffman Coding Project — Phase 3: Decoder  
 **Name:** Zainab Ghafoor  
 **ID:** 008259427  
-**GitHub repository link:** [https://github.com/zainabghafoor0/project3_p3.git](https://github.com/zainabghafoor0/project3_p3.git)
+**GitHub repository link:** [https://github.com/zainabghafoor0/project_4.git](https://github.com/zainabghafoor0/project_4.git)
 
 ---
 
