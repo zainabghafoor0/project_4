@@ -79,8 +79,21 @@ make
 diff input_output/TheBells.tokens_decoded input_output/TheBells.tokens
 ```
 
+
 **Example terminal output:**
 ```
 Decoded -> input_output/TheBells.tokens_decoded
 ```
 
+**Made Changes:
+```
+In the compile_and_test_project4.bash, I made these changes:
+
+echo -e "\n==> Running: $TARGET on ${base}.hdr ${base}.code"
+
+  "./$TARGET" "${base}.hdr" "${base}.code"
+
+to this:
+
+echo -e "\n==> Running: $TARGET on $INPUT_DIR/${base}.hdr $INPUT_DIR/${base}.code"
+"./$TARGET" "$INPUT_DIR/${base}.hdr" "$INPUT_DIR/${base}.code"
